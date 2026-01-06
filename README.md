@@ -1,19 +1,18 @@
-# AtliQ Hardware Analytics: Data-Driven Insights for Brick & Mortar and E-Commerce | Power BI, SQL, Excel |
+# Brick & Mortar and E-Commerce | Power BI, SQL, Excel |
 
 ## Project Overview
 
 AtliQ Hardware is growing rapidly in the recent years, and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
 
-I worked on this project by following the Codebasics SQL Course
+I worked on this project by following the Codebasics PowerBi Course, Link to the course is [here](https://codebasics.io/courses/power-bi-data-analysis-with-end-to-end-project)
+
 
 ## Tech stacks
 
-- SQL
 - PowerBi Desktop
 - Excel
 - DAX language
-- DAX studio (for optimizing the report)
-
+- Project charter file
 
 ## PowerBI techniques Learnt
 
@@ -27,9 +26,13 @@ I worked on this project by following the Codebasics SQL Course
 - Using KPI indicators
 - Conditional formatting the values in visuals using icons or background color
 - Data validation techniques
-- Setting up personal gateway to set up the auto refresh of data
 - PowerBi App creation
 
+
+## GitHub 
+
+- Uploading Large size files using GitHub LFS
+- Tracking the particular type of file extensions for LFS
 
 ## Business related terms
 
@@ -58,8 +61,23 @@ AltiQ hardware is a company which has grown vastly in the recent years, and open
 
 Recently the company has faced a unforeseen loss by opening store in America based on the surveys, intuition and some excel analysis and also the company’s competitors has handful of analytics team to perform analysis and make data driven decision. So, the AltiQ hardware has no other option other than building their analytics team for data driven insights and decisions in the future to survive better in the industry. 
 
+Project kick off session, where you should get clear of for what and why this project and all other questions you have with regards to the project
 
+### Questions to ask before starting with dashboard
 
+- What is the objective of building this PowerBi dashboard?
+- In what terms the success of this project will be measured?
+- What will be time dead-line of the project?
+- do the stakeholders expecting pre-view before the actual release?
+- What are all the hopes stakeholders have out of this project?
+- what are all fears the stakeholder have in terms of building this dashboard?
+- Who are all will be using this dashboard and for what purpose?
+- what are all expectation the stakeholders have, by the completion of this project?
+- What can go wrong while building this project?
+- what are all the resources/ data needed to build this dashboard?
+- is there any inputs from stakeholders in terms of design and views of the dashboard?
+
+After the project kick off meetings, the data engineering team has given the data as per the request of data analytics team, let’s explore them.
 
 ### Dataset **Understanding.**
 
@@ -122,9 +140,7 @@ Fact table : It will have the data about the transactions
     - Post_invoice_deductions
         - Post invoice deductions and other deductions details
 
-## Importing data into PowerBi
 
-- As the database is MySQL in this project, we need to import the datasets from Mysql database to PowerBi by providing the Database access credential
 
 ## Data Model
 
@@ -133,7 +149,7 @@ Fact table : It will have the data about the transactions
 - Following Good practices of data modeling is must. Refer this page to get to know the good practices [Blog](https://addendanalytics.com/blog/data-modelling-best-practices/)
 - In this project, we have followed Snowfall data modeling method.
 
-<img src="https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Data_model.png" class="center">
+<img src="https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Data_model.png" class="center">
 
 ### Dashboard designing
 
@@ -154,38 +170,39 @@ In Home view, all the views button will be available. User will land on specific
 
 ## Overall Report
 
-![Overall Report.gif](https://raw.githubusercontent.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/main/Resources/Overall.gif)
+![Overall Report.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Overall.gif)
 
 ## Info Page
 
-![Info.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Info.gif)
+![Info.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Info.gif)
 
 ## Finance View
 
-![Finace.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Finance.gif)
+![Finace.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Finace.gif)
 ## Sales View
 
-![Sales.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Sales.gif)
+![Sales.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Sales.gif)
 
 ## Marketing View
 
-![Marketing.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Marketing.gif)
+![Marketing.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Marketing.gif)
 
 ## Supply chain View
 
-![Supply chain.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/supply%20chain.gif)
+![Supply chain.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/supply%20chain.gif)
 
 ## Executive View
 
-![Executive.gif](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Executive.gif)
+![Executive.gif](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Executive.gif)
 
 ## Products
 
-![Products](https://github.com/Vinayak-pixel/Brick-Mortar-and-E-Commerce-Power-BI-SQL-Excel-/blob/main/Resources/Products%20View.gif)
+![Products](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Resources/Products%20View.gif)
 
-you can find the full report file here : [Report](https://drive.google.com/file/d/1B1fBqfKq2WVZk89nD4TQr-eFf9zLFB-y/view?usp=drive_link)
+you can find the full report file here : [Report](https://github.com/Naveen-S6/Business_Insights_360/blob/main/Report/360.pbix)
 
 
 ## Project Outcome
 
 By using this report, decisions can be taken based on the data. Further it will help in answering n number of why questions based on the situations.
+
