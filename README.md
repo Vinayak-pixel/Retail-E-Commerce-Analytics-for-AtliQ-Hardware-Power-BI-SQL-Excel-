@@ -1,4 +1,4 @@
-# Brick & Mortar and E-Commerce | Power BI, SQL, Excel |
+# Brick & Mortar and E-Commerce | Power BI, Excel |
 
 ## Project Overview
 
